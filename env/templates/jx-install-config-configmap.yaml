@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAPFgqELiHjRC43/60qVmAhcwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkMTgyNmE2ZWMtYzdlYy00MDkyLTkwMzItMTk3ZTY0ZTE0ZWFh
+    MB4XDTE5MDQyNTA3MzI0MloXDTI0MDQyMzA4MzI0MlowLzEtMCsGA1UEAxMkMTgy
+    NmE2ZWMtYzdlYy00MDkyLTkwMzItMTk3ZTY0ZTE0ZWFhMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAvv1GzppJFgYSGky84BIl2rrYURN1JYa3cHNV0NnC
+    hArXKSJzT2hkCxVElTskWJyDReZ8oHLc3JIXXQ6lk9Dw7MO4fHY6iQ/NvAVAGGXy
+    WdtVcRQEo7OkjJ9frDxW9eqhq3nW5daiDXQFp9nem293M0SCu2kLig/OBTlnRN35
+    v7cUybmOQMM2NqgnLFk5TLnIrbFzPxPFWZOYF4VczHZRMHO7dELfPvmnSWDebvMb
+    ByvUdRbH2hLjdM6os8H+szmLVQo/MVKL3+1ezN29kaH4u7cpjtlEERdwCW8WoXK+
+    UXO3JY3lAGcvU647VEXeeHIskTkeisV0xLmEtSOM8ahmgwIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    ih0t9X5BxMegZLYjdD49s0gsSZ6NekFJXgiYUiCyRNZuUT/UHtRKJlXx6PkPf/ny
+    y1O5DlbY6VZY/gaOIGavU/zzO4Twjj9hsN4BLLhe4Xk7YfXaqsOk0r+GbkI+KBw+
+    7koUqG2wg6ivqB3ZFHsj5re1anqZ/EzCWAIU+w71zyF0S6H6V7/ZBI3MJQH7TcYH
+    yCla9EOpt16JCcKjKbz5CLNJ/rh6yJLwiSVwTCvtK4vl6xF3P0Q5CgxSD1QKdpgp
+    CKqGD3bm/ajHZ9fNmta80/t1hK8HIiMfzlpWxOnhubuCvtHWmqIAiRYhTJSEbqkO
+    ti0v31M+b6/XDTprnFcWvw==
+    -----END CERTIFICATE-----
+  clusterName: dani-dev-cluster
+  jx-install-version: 1.3.980-dev+ba4779156
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.233.11.67
+  systemVaultName: jx-vault-dani-dev-clus
+  zone: europe-west1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
